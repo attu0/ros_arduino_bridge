@@ -27,6 +27,20 @@ The main commands to know are
 - `m <Spd1> <Spd2>` - Set the closed-loop speed of each motor in *counts per loop* (Default loop rate is 30, so `(counts per sec)/30`
 - `p <Kp> <Kd> <Ki> <Ko>` - Update the PID parameters
 
+## Code to run on robot
+```
+ros2 run serial_motor_demo driver --ros-args \
+  -p serial_port:=/dev/ttyACM0 \
+  -p baud_rate:=57600 \
+  -p encoder_cpr:=600 \
+  -p loop_rate:=30
+```
+
+
+## Code to run on robot
+```
+ros2 run serial_motor_demo gui
+```
 
 ## Gotchas
 
