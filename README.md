@@ -1,6 +1,5 @@
 # Circuit Design
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/1a6f24a3-88ef-41a5-b630-a91bfdca63ae" />
-
+<img width="724" height="522" alt="image" src="https://github.com/user-attachments/assets/2e099330-1964-41a4-8eb0-ab34a244fcbe" />
 
 # Arduino Motor Controller
 
