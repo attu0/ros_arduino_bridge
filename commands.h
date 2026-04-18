@@ -1,6 +1,7 @@
-/* Define single-letter commands that will be sent by the PC over the
-   serial link.
-*/
+/* commands.h
+ * Exact original from attu0/ros_arduino_bridge — UNCHANGED
+ * All single-letter serial commands.
+ */
 
 #ifndef COMMANDS_H
 #define COMMANDS_H
@@ -23,5 +24,3 @@
 #define RIGHT           1
 
 #endif
-
-
